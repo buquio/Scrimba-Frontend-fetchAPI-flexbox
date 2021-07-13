@@ -1,0 +1,37 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #7fc8f8;
+}
+
+* {
+    font-family: "Lucida Console", Monaco, monospace; 
+}
+
+.my-online-users {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-online-user {
+    background-color: lightgreen;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    border: 0.1rem solid black;
+    border-radius: 0.3rem;
+}
+
+.user-username {
+    order: 1;
+}
+
+.user-online {
+    order: 0;
+    margin: 0 1rem;
+    height: 1rem;
+    width: 1rem;
+    background-color: green;
+    border-radius: 50%;
+}

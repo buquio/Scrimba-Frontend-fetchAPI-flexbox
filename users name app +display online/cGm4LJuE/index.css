@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #7fc8f8;
+}
+
+* {
+    font-family: "Lucida Console", Monaco, monospace; 
+}
+ /* -The username and circle should be in individual divs */
+        /* -Both should be vertically and horizontally centered */
+        /* -The component should only be wide enough to Fit its Content + some padding */
+
+.my-online-user {
+    background-color: lightgreen;
+    font-size: 1.5rem;
+    width: fit-content; /* fit to content-size */
+    padding: 0.5rem;
+    display: flex;
+    justify-content:center; /* horizontally centered */
+    align-items: center; /* vertically centered */
+    border: 0.1rem solid black;
+    margin: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+.user-username {
+    order: 1;
+    margin-right: 15px;
+    
+}
+
+.user-online {
+    order: 0;
+    margin: 0 1rem;
+    height: 1rem;
+    width: 1rem;
+    background-color: green;  /*Alongside a green circle */
+    border-radius: 50%;
+}
+       
